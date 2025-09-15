@@ -16,5 +16,5 @@
         </div>
     </div>
 
-    @include('livewire.page.include.script')
+    @include('livewire.page.include.home.script')
 </div>
