@@ -177,11 +177,11 @@
                     <ul id="menu-menu-header" class=" menu sf-menu">
                         <li id="menu-item-999"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-999"><a
-                                href="https://uka.edu.vn/tong-quan/">Tổng quan</a></li>
+                                href="{{ Route::has('tong-quan') ? route('tong-quan') : '#' }}">Tổng quan</a></li>
                         <li id="menu-item-521"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-521">
-                            <a href="https://uka.edu.vn/chuong-trinh-dao-tao/">Chương trình <br> đào tạo<span
-                                    role="presentation" class="dropdown-menu-toggle"><span
+                            <a href="{{ Route::has('chuong-trinh-dao-tao') ? route('chuong-trinh-dao-tao') : '#' }}">Chương
+                                trình <br> đào tạo<span role="presentation" class="dropdown-menu-toggle"><span
                                         class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true"
                                             xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
                                             <path
@@ -190,31 +190,36 @@
                             <ul class="sub-menu">
                                 <li id="menu-item-2513"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2513">
-                                    <a href="https://uka.edu.vn/chi-tiet-chuong-trinh/mam-non/">MẦM NON</a>
+                                    <a
+                                        href="{{ Route::has('chi-tiet-chuong-trinh/mam-non') ? route('chi-tiet-chuong-trinh/mam-non') : '#' }}">MẦM
+                                        NON</a>
                                 </li>
                                 <li id="menu-item-2515"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2515">
-                                    <a href="https://uka.edu.vn/chi-tiet-chuong-trinh/chuong-trinh-tieu-hoc/">TIỂU
+                                    <a
+                                        href="{{ Route::has('chi-tiet-chuong-trinh/chuong-trinh-tieu-hoc') ? route('chi-tiet-chuong-trinh/chuong-trinh-tieu-hoc') : '#' }}">TIỂU
                                         HỌC</a>
                                 </li>
                                 <li id="menu-item-2516"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2516">
-                                    <a href="https://uka.edu.vn/chi-tiet-chuong-trinh/trung-hoc-co-so/">TRUNG HỌC
+                                    <a
+                                        href="{{ Route::has('chi-tiet-chuong-trinh/trung-hoc-co-so') ? route('chi-tiet-chuong-trinh/trung-hoc-co-so') : '#' }}">TRUNG
+                                        HỌC
                                         CƠ
                                         SỞ</a>
                                 </li>
                                 <li id="menu-item-2517"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2517">
                                     <a
-                                        href="https://uka.edu.vn/chi-tiet-chuong-trinh/chuong-trinh-trung-hoc-pho-thong/">TRUNG
+                                        href="{{ Route::has('chi-tiet-chuong-trinh/chuong-trinh-trung-hoc-pho-thong') ? route('chi-tiet-chuong-trinh/chuong-trinh-trung-hoc-pho-thong') : '#' }}">TRUNG
                                         HỌC PHỔ THÔNG</a>
                                 </li>
                             </ul>
                         </li>
                         <li id="menu-item-522"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-522">
-                            <a href="https://uka.edu.vn/thong-tin-hoc-duong/">Thông tin <br> học đường<span
-                                    role="presentation" class="dropdown-menu-toggle"><span
+                            <a href="{{ Route::has('thong-tin-hoc-duong') ? route('thong-tin-hoc-duong') : '#' }}">Thông
+                                tin <br> học đường<span role="presentation" class="dropdown-menu-toggle"><span
                                         class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true"
                                             xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
                                             <path
@@ -223,19 +228,22 @@
                             <ul class="sub-menu">
                                 <li id="menu-item-1046"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1046">
-                                    <a href="https://uka.edu.vn/chan-dung/">Chân dung UKers</a>
+                                    <a href="{{ Route::has('chan-dung') ? route('chan-dung') : '#' }}">Chân dung
+                                        UKers</a>
                                 </li>
                                 <li id="menu-item-1658"
                                     class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1658">
-                                    <a href="https://uka.edu.vn/danh-muc-tin-tuc/tin-tuc-va-su-kien/">Tin tức và sự
+                                    <a
+                                        href="{{ Route::has('danh-muc-tin-tuc/tin-tuc-va-su-kien') ? route('danh-muc-tin-tuc/tin-tuc-va-su-kien') : '#' }}">Tin
+                                        tức và sự
                                         kiện</a>
                                 </li>
                             </ul>
                         </li>
                         <li id="menu-item-947"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-947">
-                            <a href="https://uka.edu.vn/he-thong-truong/">Hệ thống <br> trường uka<span
-                                    role="presentation" class="dropdown-menu-toggle"><span
+                            <a href="{{ Route::has('he-thong-truong') ? route('he-thong-truong') : '#' }}">Hệ thống
+                                <br> trường uka<span role="presentation" class="dropdown-menu-toggle"><span
                                         class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true"
                                             xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
                                             <path
@@ -244,49 +252,62 @@
                             <ul class="sub-menu">
                                 <li id="menu-item-4570"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4570">
-                                    <a href="https://uka.edu.vn/office/uka-ha-long-tinh-quang-ninh/">Trường Quốc tế
+                                    <a
+                                        href="{{ Route::has('office/uka-ha-long-tinh-quang-ninh') ? route('office/uka-ha-long-tinh-quang-ninh') : '#' }}">Trường
+                                        Quốc tế
                                         Song ngữ UKA Hạ Long</a>
                                 </li>
                                 <li id="menu-item-4569"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4569">
-                                    <a href="https://uka.edu.vn/office/uka-gia-lai/">Trường Quốc tế Song ngữ UKA
+                                    <a
+                                        href="{{ Route::has('office/uka-gia-lai') ? route('office/uka-gia-lai') : '#' }}">Trường
+                                        Quốc tế Song ngữ UKA
                                         Gia
                                         Lai</a>
                                 </li>
                                 <li id="menu-item-4568"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4568">
-                                    <a href="https://uka.edu.vn/office/uka-hue/">Trường Quốc tế Song ngữ UKA
+                                    <a href="{{ Route::has('office/uka-hue') ? route('office/uka-hue') : '#' }}">Trường
+                                        Quốc tế Song ngữ UKA
                                         Huế</a>
                                 </li>
                                 <li id="menu-item-4567"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4567">
-                                    <a href="https://uka.edu.vn/office/uka-ba-ria/">Trường Quốc tế Song ngữ UKA Bà
+                                    <a
+                                        href="{{ Route::has('office/uka-ba-ria') ? route('office/uka-ba-ria') : '#' }}">Trường
+                                        Quốc tế Song ngữ UKA Bà
                                         Rịa</a>
                                 </li>
                                 <li id="menu-item-4565"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4565">
-                                    <a href="https://uka.edu.vn/office/uka-binh-thanh/">Trường Quốc Tế Song Ngữ UKA
+                                    <a
+                                        href="{{ Route::has('office/uka-binh-thanh') ? route('office/uka-binh-thanh') : '#' }}">Trường
+                                        Quốc Tế Song Ngữ UKA
                                         Bình Thạnh &#8211; TP.HCM</a>
                                 </li>
                                 <li id="menu-item-4566"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4566">
-                                    <a href="https://uka.edu.vn/office/uka-da-nang/">Trường Quốc tế Song ngữ UKA Đà
+                                    <a
+                                        href="{{ Route::has('office/uka-da-nang') ? route('office/uka-da-nang') : '#' }}">Trường
+                                        Quốc tế Song ngữ UKA Đà
                                         Nẵng</a>
                                 </li>
                                 <li id="menu-item-4564"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4564">
-                                    <a href="https://uka.edu.vn/office/iec-quang-ngai/">Trường Quốc tế IEC Quảng
+                                    <a
+                                        href="{{ Route::has('office/iec-quang-ngai') ? route('office/iec-quang-ngai') : '#' }}">Trường
+                                        Quốc tế IEC Quảng
                                         Ngãi</a>
                                 </li>
                             </ul>
                         </li>
                         <li id="menu-item-5050"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5050"><a
-                                href="https://uka.edu.vn/tuyen-sinh/">Tuyển Sinh</a></li>
+                                href="{{ Route::has('tuyen-sinh') ? route('tuyen-sinh') : '#' }}">Tuyển Sinh</a></li>
                         <li id="menu-item-wpml-ls-13-en"
                             class="menu-item wpml-ls-slot-13 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-13-en">
-                            <a href="https://uka.edu.vn/en/"><img class="wpml-ls-flag"
-                                    src="https://uka.edu.vn/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+                            <a href="{{ Route::has('en') ? route('en') : '#' }}"><img class="wpml-ls-flag"
+                                    src="assets/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
                                     alt="English" /></a>
                         </li>
                     </ul>

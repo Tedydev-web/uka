@@ -1,7 +1,6 @@
 <div>
     <div class="site grid-container container hfeed" id="page">
         <div class="site-content" id="content">
-            {{-- @include('livewire.components.home.section-banner') --}}
             @livewire('components.home.section-banner')
             @livewire('components.home.section-home')
             @livewire('components.home.section-home1')

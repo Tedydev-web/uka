@@ -327,7 +327,9 @@
     </script>
     @include('partial.header')
     {{ $slot }}
-    @include('partial.footer')
+    @if (Route::currentRouteName() != 'tuyen-sinh' )
+        @include('partial.footer')
+    @endif
     @vite('resources/js/app.js')
     @livewireScripts
 
