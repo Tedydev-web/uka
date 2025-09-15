@@ -325,9 +325,11 @@
             DrawText()
         }, 500);
     </script>
+    @include('partial.header')
     {{ $slot }}
-    @livewireScripts
+    @include('partial.footer')
     @vite('resources/js/app.js')
+    @livewireScripts
 
 </body>
 
