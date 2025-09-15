@@ -11,5 +11,5 @@
             @livewire('components.tong-quan.section-home7')
         </div>
     </div>
-    @include('livewire.page.include.home.home-script')
+    @include('livewire.page.include.tong-quan.script')
 </div>
