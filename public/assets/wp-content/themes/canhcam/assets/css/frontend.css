@@ -1983,7 +1983,7 @@ about_us2  .box_heading {
 }
 .about_us2 .box_heading:before {
     position: absolute;
-    content: url(../../images/830-[Converted].png);
+    content: url(../../images/830-%5bConverted%5d.png);
     overflow: initial;
     visibility: initial;
     top: 0;
